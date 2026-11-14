@@ -1,0 +1,27 @@
+# 数据使用声明（DATA LICENSE）
+
+本仓库中的以下数据文件**不属于** MIT 代码许可的范围，按本声明授权：
+
+- `data/mentor_knowledge/cards.json`
+- `data/mentor_knowledge/chunks.json`
+- `data/mentor_knowledge/mentor_profiles.json`
+- `data/mentor_ingest/admin_config/mentor_identity_map.json`
+
+## 授权范围
+
+1. **允许**：克隆本仓库后，为运行、试用、本地研究目的使用上述数据文件。
+2. **禁止**：
+   - 将上述数据文件（无论整体、子集或改写版本）**单独再分发**到任何其他仓库、数据集、产品或服务；
+   - 将上述数据用于**训练任何机器学习模型**；
+   - 将上述数据用于**商业用途**；
+   - 尝试根据数据中的任何线索反查、还原真实的原始来源与作者。
+
+## 关于导师内容
+
+- 示例知识库中的导师均为**化名**（观局者 / 灰狼 / 调情师 / 破象者），原始身份信息已按约定匿名化处理，且本仓库刻意移除了全部溯源字段。
+- 化名与真实导师的对应关系不在本仓库中，也不提供。
+- 如果你是相关权利人并认为某条内容不应公开，请通过仓库 Issues 联系，我们会在核实后移除。
+
+## 代码与数据的边界
+
+`data/core_dna.txt` 与 `data/style_profile.json` 为演示用示例风格配置；其余一切源代码按仓库根目录的 LICENSE（MIT）授权。
